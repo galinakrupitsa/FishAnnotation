@@ -13,8 +13,3 @@ public @interface FishingBan {
 
 }
 
-enum Month {
-    January,
-    February,
-    March,
-    April}

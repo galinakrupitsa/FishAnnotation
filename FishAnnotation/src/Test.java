@@ -5,6 +5,7 @@ public class Test {
     Fish []fish = new Fish[2];
     fish[0] = new Carp();
     fish[1] = new Perch();
+
     System.out.println("Рыбу нельзя ловить в определенные месяцы ");
     for (Fish f : fish) {
         Class<?> c = f.getClass();
